@@ -1,0 +1,151 @@
+
+@media(max-width: 600px) {
+  .nav_item1--box > .nav_item1--box--img{
+      
+      width: 50px;
+      height: 50px;
+    
+        
+    }
+    .nav_item2--box > .nav_item2--box--img{
+      
+        width: 50px;
+        height: 50px;
+      
+          
+      }
+    
+   
+ }
+
+*{margin:0;padding:0}
+        input {
+            background:none;
+            border:0;outline:0;width: 100%;}
+        input:focus {outline:none!important;}
+        .container {
+            max-width: 1200px;
+            margin:0 auto;
+            position: relative;
+           
+          
+        }
+        
+        .nav{
+            
+        }
+       .nav-2-img> img{
+            width: 100%;
+            height: 100%;
+        }
+        .nav-1{
+            display: flex;
+            width: 100%;
+          
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+        .nav-1-left{
+            display: flex;
+            width: 100%;
+            
+        }
+        .nav-1-left>.nav-1-text{
+            font-size: 20px;
+            margin-left:20px
+        }
+
+        .nav-1-right{
+            display: flex;
+       
+            
+        }
+        .nav-1-right>.nav-1-right-ic_loading{
+           margin-right: 10px;
+       
+            
+        }
+
+
+    /*navigation*/
+     /*99999999999999999*/
+     .navigation{
+        display: none;
+        position:absolute;
+        width: 80%;
+        left:20%;
+        z-index: 100;
+        
+        
+     }
+     .nav_box{
+         position:  relative;
+     }
+     .navigation_box{
+         background:#D9D9D9;
+         height:600px;
+      
+        
+         
+     }
+     .nav_item1--box{
+         display: flex;
+         align-items:center;
+         position:  relative;
+         padding: 20px;
+        
+          
+        
+     }
+     .nav_item1--box::before {
+     content: "";
+     background-color: black;
+   
+     width: calc(100% - 40px);
+     height: 2px;
+     position: absolute;
+     top: 100%;
+
+    
+     }
+     .nav_item1--box--img{
+         width:100px;
+         height:100px;
+         
+         margin-right: 20px;
+         
+     }
+     .nav_item1--box--img>img{
+         width:100%;
+         height:100%;
+     }
+     .nav_item2--box{
+         display: flex;
+         align-items:center;
+         position:  relative;
+         padding: 20px;
+        
+          
+        
+     }
+ 
+
+    
+
+     .nav_item2--box--img{
+         width:100px;
+         height:100px;
+        
+         margin-right: 20px;
+         
+     }
+     .nav_item2--box--img>img{
+         width:100%;
+         height:100%;
+     }
+     .text_logout{
+         position:absolute;
+         top: 95%;
+         left: 40%
+        
+     }

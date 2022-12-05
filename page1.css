@@ -1,0 +1,174 @@
+@media(max-width: 767px) {
+    .container .header{
+    height: 300px;
+  
+ }
+ .container .aside1{
+    height: 200px;
+  
+ }
+ }
+ @media(max-width: 480px) {
+    .container .header{
+    height: 220px;
+  
+ }
+
+ }
+ @media(max-width: 320px) {
+    .container .header{
+    height: 150px;
+  
+ }
+ .container .aside1{
+    height: 80px;
+  
+ }
+ .aside2__box>.aside2__item1{
+    width:70px;
+    height:70px;
+ }
+ .aside2__box>.aside2__item3{
+    padding: 10px;
+ }
+.container>.aside2{
+
+   height:400px;
+ }
+ }
+
+
+
+
+ *{margin:0;padding:0}
+ input {
+     background:none;
+     border:0;outline:0;width: 100%;}
+ input:focus {outline:none!important;}
+ .container {
+     max-width: 1200px;
+     margin:0 auto;
+   
+ }
+ .header{
+     background: #CBF15C;
+     width: 100%;
+     height: 400px;
+     position: relative;
+ }
+ .img__header{
+     position: absolute;
+      top: 100%;
+     transform: translateY(-100%);
+     width: 100%;
+     height: 70%;
+     
+ }
+ .aside1{
+     width:100%;
+     height: 300px;
+     position: relative;
+   
+    
+ }
+ .aside__item1{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+      transform: translate(-50%,-50%);
+     width: 90%;
+     height: 80%;
+   
+     
+ }
+ .aside__item1>img{
+    width:100%;
+    height: 100%;
+ }
+ .aside2{
+     background:#CBF15C;
+     width:100%;
+     height: 500px;
+     text-align: center;
+     position: relative;
+    
+ 
+   
+    
+ }
+
+ .aside2__box{
+
+ width: 100%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+
+     
+ }
+ 
+ .aside2__item1{
+
+     width:100px;
+     height:100px;
+    
+     display: inline-block;
+ }
+ .aside2__item1>img{
+
+ width:100%;
+ height:100%;
+
+ 
+ }
+ .aside2__item2{
+     padding:10px;
+ }
+
+
+ .aside2__item3{
+   
+     margin: 0 auto;
+     display: flex;
+     width: 70%;
+     padding: 20px 20px;
+     background: #C5BABA;
+     border-radius:50px;
+     margin-top: 20px;
+   
+  
+    
+ }
+
+ .gg-lock, .gg-user-add{
+   
+     margin: 0 auto;
+     
+ }
+ .aside2__item3 > input{
+  
+     
+   padding: 0 15px ;
+  
+    
+ }
+
+ .text_quen_mk{
+     margin-top: 50px;
+ }
+ .footer{
+    position:relative;
+     width: 100%;
+     height: 80px;
+     
+    
+ }
+.footer-box{
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+
+}

@@ -1,0 +1,41 @@
+@media(max-width: 600px) {
+   
+}
+
+@media(max-width: 480px) {
+    .main>.main_box{
+   
+    font-size:20px
+}
+
+}
+@media(max-width:320px) {
+    .main>.main_box{
+   
+   font-size:16px
+}
+
+}
+
+.main{
+    padding:10px;
+    font-size:30px
+}
+.main_box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.main_box-icon{
+    width: 30px;
+    height: 30px;
+    background-color:#CBF15C;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main_box-icon>img{
+    width: 70%;
+    height: 70%;
+    
+}
